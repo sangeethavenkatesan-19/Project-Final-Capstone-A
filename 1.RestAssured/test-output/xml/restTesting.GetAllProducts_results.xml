@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST APIs"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.235">
+  <properties />
+  
+  
+            <testcase name="getallshoes" time="3.235" classname="restTesting.GetAllProducts" />
+      
+</testsuite>

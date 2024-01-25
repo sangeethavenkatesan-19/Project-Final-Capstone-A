@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T05:13:17 IST" name="Rest Assured  Test" finished-at="2024-01-25T05:13:21 IST" duration-ms="3921">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T05:13:17 IST" name="REST APIs" finished-at="2024-01-25T05:13:21 IST" duration-ms="3921">
+      <class name="restTesting.DeleteProduct">
+        <test-method signature="deleteProduct()[pri:0, instance:restTesting.DeleteProduct@3bd82cf5]" started-at="2024-01-25T05:13:21 IST" name="deleteProduct" finished-at="2024-01-25T05:13:21 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- restTesting.DeleteProduct -->
+      <class name="restTesting.AddProduct">
+        <test-method signature="add_new_product()[pri:0, instance:restTesting.AddProduct@544fa968]" started-at="2024-01-25T05:13:21 IST" name="add_new_product" finished-at="2024-01-25T05:13:21 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_new_product -->
+      </class> <!-- restTesting.AddProduct -->
+      <class name="restTesting.UpdateProduct">
+        <test-method signature="updateProduct()[pri:0, instance:restTesting.UpdateProduct@247bddad]" started-at="2024-01-25T05:13:21 IST" name="updateProduct" finished-at="2024-01-25T05:13:21 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+      </class> <!-- restTesting.UpdateProduct -->
+      <class name="restTesting.GetAllProducts">
+        <test-method signature="getallshoes()[pri:0, instance:restTesting.GetAllProducts@55fe41ea]" started-at="2024-01-25T05:13:17 IST" name="getallshoes" description="Test for executing GET request using rest assured" finished-at="2024-01-25T05:13:21 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallshoes -->
+      </class> <!-- restTesting.GetAllProducts -->
+      <class name="restTesting.GetAllRegisteredUsers">
+        <test-method signature="getAllUsers()[pri:0, instance:restTesting.GetAllRegisteredUsers@fa4c865]" started-at="2024-01-25T05:13:21 IST" name="getAllUsers" finished-at="2024-01-25T05:13:21 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+      </class> <!-- restTesting.GetAllRegisteredUsers -->
+    </test> <!-- REST APIs -->
+  </suite> <!-- Rest Assured  Test -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Rest Assured  Test">
+<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="REST APIs">
+		<classes>
+			<class name="restTesting.GetAllProducts"></class>
+			<class name="restTesting.GetAllRegisteredUsers"></class>
+			<class name="restTesting.DeleteProduct"></class>
+			<class name="restTesting.AddProduct"></class>
+			<class name="restTesting.UpdateProduct"></class>
+		</classes>
+	</test>
+</suite>

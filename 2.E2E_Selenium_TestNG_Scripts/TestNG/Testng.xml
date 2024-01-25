@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sporty Shoes Test Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Selenium TestNG Test Scripts">
+		<classes>
+			<class name="seleniumTestNGProject.AddToCart"></class>
+			<class name="seleniumTestNGProject.LoginPage"></class>
+			<class name="seleniumTestNGProject.PlaceOrder"></class>
+			<class name="seleniumTestNGProject.RegistrationPage"></class>
+		</classes>
+	</test>
+</suite>
